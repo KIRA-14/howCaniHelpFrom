@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./indexStyle.css">
+</head>
+<body>
+    <section>
+        <h3>Contact Us</h3>
+        <form id="form-on-help">
+            <section id="home-part-one">
+                <p><strong>HOW CAN WE HELP YOU?</strong></p>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Your Name" required/>
+                <label for="mailId">Your E-MAIL Adress</label>
+                <input type="text" id="mailId" placeholder="Your E-Mail ID" required/>
+                <label for="phoneNumner">Your Phone Number</label>
+                <input type="text" id="phoneNumner" placeholder="Your Phone Number" required/>
+                <label for="comments">Your Mesage</label>
+                <textarea type="text" id="comments" ></textarea>
+                <label for="comments">How did uifind us?</label>
+                <select>
+                    <option>web search</option>
+                </select>
+            </section>
+            <section id="home-part-two">
+                <p><strong>HOW SHOUD WE REPLY?</strong></p>
+                <div class="rediostyle">
+                    <input type="radio" id="call" placeholder="Your Phone Number" required/>
+                    <label for="call">Call me</label>
+                </div>
+                <div class="rediostyle">
+                    <input type="radio" id="mail" placeholder="Your Phone Number" required/>
+                    <label for="mail">Mail me</label>
+                </div>
+                <div class="rediostyle">
+                    <input type="radio" id="donotreply" placeholder="Your Phone Number" required/>
+                    <label for="donotreply">Do't Reply</label>
+                </div>
+            </section>
+            <hr/>
+            <section id="home-part-three">
+                <button type="reset">CLEAR</button>
+                <button type="submit">SUBMIT</button>
+            </section>
+        </form>
+    </section>
+    
+</body>
+</html>
