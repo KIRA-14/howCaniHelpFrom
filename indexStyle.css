@@ -32,20 +32,30 @@ label{
 }
 
 button{
+    font-size: 10px;
     border-radius: 4px;
+    display: inline;
+    width: 100px;
+    height: 25px;
 }
-button [text="SUBMIT"]{
-    background-color: rgb(0, 0, 0);
+button[type="submit"]{
+    background-color:rgb(0 , 0, 0);
     color: white;
+}
+button[type="reset"]{
+    color: rgb(158, 154, 158);
 }
 
 .rediostyle{
     display: flex;
-    align-items: flex-start;
 }
-.rediostyle input{
+.rediostyle input[type="radio"]{
     width: auto;
-    margin: 2px 2px 2px 10px;
+    margin: 2px 2px 5px 15px;
+}
+.rediostyle input[type="checkbox"]{
+    width: auto;
+    margin: 2px 2px 5px 15px;
 }
 .rediostyle label{
     padding: 0;
@@ -58,7 +68,9 @@ button [text="SUBMIT"]{
 }
 
 #home-part-three{
-    margin: 0 0 0 0;
-    padding-left: 350px;
-    padding-bottom: 1rem;
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+    padding: 10px 5px;
 }
